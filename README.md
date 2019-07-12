@@ -9,38 +9,38 @@ It is a process of ranking images on basis of _correctiveness_ of their predicti
 
 ##Repository Structure:
 
-###Documentation/
-├── ActiveLearning_MultiLabelImg
-├── created_files
-│   ├── predictions.csv
-│   └── ss.csv
-├── create_prediction_scores.py
-├── create_selectivesearch_scores.py
-├── papers
-├── process_prediction_and_rpn.py
-├── rank_images.py
-├── README.md
-├── requirements.txt
-├── results
-│   ├── failed trials
-│   │   ├── AL-exp-0.5-pool-1
-│   │   └── AL-log-0.5-pool-1
-│   ├── filewise 20_percent selected over 20_percent seed.png
-│   ├── positive result
-│   │   └── filewise-seleted training 0.2-0.2
-│   ├── random 20_percent selection over 20_percent seed.png
-│   ├── random_train_over_seed_0.2-0.2
-│   └── Seed training
-└── temp_files
-    ├── max_iou
-    ├── non_zero_iou.csv
-    ├── ordered_result
-    ├── result.csv
-    ├── train_test_count.csv
-    ├── unified.csv
-    └── zero_iou.csv
+###Documentation/<br />
+├── ActiveLearning_MultiLabelImg<br />
+├── created_files<br />
+│   ├── predictions.csv<br />
+│   └── ss.csv<br />
+├── create_prediction_scores.py<br />
+├── create_selectivesearch_scores.py<br />
+├── papers<br />
+├── process_prediction_and_rpn.py<br />
+├── rank_images.py<br />
+├── README.md<br />
+├── requirements.txt<br />
+├── results<br />
+│   ├── failed trials<br />
+│   │   ├── AL-exp-0.5-pool-1<br />
+│   │   └── AL-log-0.5-pool-1<br />
+│   ├── filewise 20_percent selected over 20_percent seed.png<br />
+│   ├── positive result<br />
+│   │   └── filewise-seleted training 0.2-0.2<br />
+│   ├── random 20_percent selection over 20_percent seed.png<br />
+│   ├── random_train_over_seed_0.2-0.2<br />
+│   └── Seed training<br />
+└── temp_files<br />
+    ├── max_iou<br />
+    ├── non_zero_iou.csv<br />
+    ├── ordered_result<br />
+    ├── result.csv<br />
+    ├── train_test_count.csv<br />
+    ├── unified.csv<br />
+    └── zero_iou.csv<br />
 ## USING THE REPOSITORY
-###STEP 0: requirements.txt
+###STEP 0: requirements.txt<br />
 1. Create a virtual environment
 2. $ pip install -r requirements.txt
 
