@@ -1,0 +1,11 @@
+selectivesearch
+matplotlib
+argparse
+tqdm
+pandas
+numpy
+shapely
+opencv-python
+tensorflow
+keras
+keras_retinanet
